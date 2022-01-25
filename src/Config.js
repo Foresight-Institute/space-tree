@@ -4,27 +4,27 @@
  */
 
 const Config = {
-  title: 'Tech Tree',
+  title: 'Space Tech Tree',
   subtitle: 'Prototype',
   key: [
     {
-      title: 'Example Type 1',
+      title: 'Core Technology',
       color: '#9FC4FF',
     },
     {
-      title: 'Example Type 2',
+      title: 'Space Tech',
       color: '#FFC6FE',
     },
     {
-      title: 'Example Type 3',
+      title: 'General Improvement',
       color: '#FDFFB6',
     }
   ],
-  github_repo_owner: 'KaiMicahMills',
-  github_repo_name: 'tech-tree',
+  github_repo_owner: 'Foresight-Institute',
+  github_repo_name: 'space-tree',
   github_base_branch: 'staging',
   github_token: process.env.REACT_APP_TOKEN,
-  cover_image_url: 'https://fsnone-bb4c.kxcdn.com/wp-content/uploads/2021/10/Biotech-program-image.jpg',
+  cover_image_url: 'https://foresight.org/wp-content/uploads/2022/01/space-background2.jpg',
   tree_background_color: '#1D243C'
 }
 
